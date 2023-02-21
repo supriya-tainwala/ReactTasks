@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.outer {
+
+  height: 606px;
+  background-color: #c4e3f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.divBox {
+  border: 1px solid #3f928e;
+  width: 440px;
+  height: 495px;
+  border-radius: 50px;
+  background-color: hsl(197deg 73% 82%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.inner {
+
+  width: 80%;
+}
+
+
+.nameLabel,
+.genderLabel,
+.phoneLabel,
+.addressLabel,
+.stateLabel {
+
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.phoneInp input,
+.nameInp input,
+.btnInp input,
+.addressInp input,
+.stateInp input {
+  height: 40px;
+  width: 100%;
+  border-radius: 10px;
+
+}
+
+.btnInp input {
+  background-color: rgb(71 151 147);
+  box-shadow: 5px 5px #63668d;
+}
+
+.formLabel {
+  height: 50px;
+  font-size: 45px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  color: #6161cf;
+  background-color: #84c5bc;
+
+}
+
+span {
+
+  margin-left: 70px;
+
+}
+
+.spanDiv {
+  justify-content: space-between;
+}
