@@ -1,0 +1,20 @@
+{
+    "blocks": [
+      {
+        
+        "name": "Ana Brnabić",
+        "description":"Is a Serbian politician serving as the prime minister of Serbia since 2017.",
+        "color":"red"
+      },
+      {
+        "name": "Jacinda Kate Laurell",
+        "description": "Is a New Zealand politician who served as the 40th prime minister " ,
+        "color": "maroon"
+      },
+      {
+        "name": "Zuzana Čaputová",
+        "description": "Is a Slovak politician, lawyer and environmental activist. ",
+        "color": "blue"
+      }
+    ]
+  }
