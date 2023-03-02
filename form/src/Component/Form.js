@@ -32,9 +32,7 @@ function Form() {
 
     const checkValidation = () => {
         let errors = validation;
-        
-
-
+    
 
         if (!inputValues.userName.trim()) {
             errors.userName = "User name is required";
@@ -88,7 +86,7 @@ function Form() {
                 <div className='divBox'>
                     <div className='inner'>
 
-                        <form onSubmit={handleSubmit}>
+                        <form >
                             <div className='nameLabel'> <label >Name</label></div>
 
 
@@ -109,7 +107,7 @@ function Form() {
 
                             <div className='spanDiv'>
                                 <span><input type="radio" value="MALE" name="gender" /> Male</span>
-                                <span> <input type="radio" value="FEMALE" name="gender" required/> Female</span>
+                                <span> <input type="radio" value="FEMALE" name="gender"/> Female</span>
                             </div>
 
 
