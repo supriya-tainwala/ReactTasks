@@ -1,0 +1,48 @@
+.app {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  .upload-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .gallery-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .favorite-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1rem;
+  }
+  
+  .image {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .image:hover:after {
+    content: 'Double click to favorite';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .favorite {
+    border: 2px solid gold;
+  }
